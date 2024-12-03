@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://feminivefanfics.com.br
+
+# Sitemaps
+Sitemap: https://feminivefanfics.com.br/sitemap.xml

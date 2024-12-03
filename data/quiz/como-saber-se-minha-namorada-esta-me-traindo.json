@@ -1,0 +1,255 @@
+{
+    "metaQuiz": [
+        {
+            "title": "Como saber se minha namorada está me traindo",
+            "slug": "como-saber-se-minha-namorada-esta-me-traindo",
+            "description": "Descubra se você está sendo traída neste rápido quiz. Identificar sinais pode ser difícil, mas esse quiz pode ajudar a esclarecer suas dúvidas.",
+            "img": "/quiz/como-saber-se-minha-namorada-esta-me-traindo.png",
+            "published": "2024-10-09"
+        }
+    ],
+    "questions": [
+        {
+            "question": "Como sua namorada reage quando você fala sobre a possibilidade de traição?",
+            "value": "1",
+            "respostas": [
+                {
+                    "option": "Ela fica nervosa e tenta mudar de assunto.",
+                    "value": "4"
+                },
+                {
+                    "option": "Ela fica tranquila e não se importa com a conversa.",
+                    "value": "1"
+                },
+                {
+                    "option": "Ela fica irritada e nega veementemente qualquer suspeita.",
+                    "value": "3"
+                },
+                {
+                    "option": "Ela tenta convencer você de que não há motivo para preocupação.",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "question": "Você já encontrou mensagens ou fotos suspeitas no celular dela?",
+            "value": "2",
+            "respostas": [
+                {
+                    "option": "Sim, encontrei várias mensagens e fotos comprometedoras.",
+                    "value": "5"
+                },
+                {
+                    "option": "Não encontrei nada, mas ela tem sido muito secreta com o celular.",
+                    "value": "4"
+                },
+                {
+                    "option": "Nunca encontrei nada suspeito, ela sempre me mostra o celular quando peço.",
+                    "value": "1"
+                },
+                {
+                    "option": "Às vezes encontro mensagens de amigas, mas sem nada de mais.",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "question": "Como é o comportamento dela quando está com você e com outras pessoas?",
+            "value": "3",
+            "respostas": [
+                {
+                    "option": "Ela é muito carinhosa e atenciosa com as outras pessoas também.",
+                    "value": "2"
+                },
+                {
+                    "option": "Ela parece distante e evita contato físico ou atenção de outras pessoas.",
+                    "value": "4"
+                },
+                {
+                    "option": "Ela está sempre olhando o celular e não presta atenção em você.",
+                    "value": "5"
+                },
+                {
+                    "option": "Ela é muito amorosa apenas quando está com você.",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "question": "Ela começa a sair mais sem te avisar ou te dar explicações?",
+            "value": "4",
+            "respostas": [
+                {
+                    "option": "Sim, ela tem saído muito sozinha e nem me conta mais onde vai.",
+                    "value": "5"
+                },
+                {
+                    "option": "Às vezes ela sai, mas sempre me dá uma explicação convincente.",
+                    "value": "2"
+                },
+                {
+                    "option": "Ela raramente sai sem mim, sempre me avisa o que vai fazer.",
+                    "value": "1"
+                },
+                {
+                    "option": "Ela costuma sair com amigas, mas me deixa sempre informada.",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "question": "Você já percebeu alguma mudança no comportamento dela nos últimos tempos?",
+            "value": "5",
+            "respostas": [
+                {
+                    "option": "Sim, ela tem se mostrado mais distante e menos interessada em mim.",
+                    "value": "5"
+                },
+                {
+                    "option": "Não percebi mudanças, mas sinto que algo está estranho.",
+                    "value": "4"
+                },
+                {
+                    "option": "Ela tem se mostrado mais carinhosa e atenciosa recentemente.",
+                    "value": "2"
+                },
+                {
+                    "option": "Nada mudou, o comportamento dela continua o mesmo de sempre.",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "question": "Ela evita conversar sobre o futuro do relacionamento?",
+            "value": "6",
+            "respostas": [
+                {
+                    "option": "Sim, ela evita ou muda de assunto quando falo sobre o futuro.",
+                    "value": "4"
+                },
+                {
+                    "option": "Às vezes ela fica evasiva, mas tenta ser compreensiva.",
+                    "value": "2"
+                },
+                {
+                    "option": "Não, ela sempre fala sobre o futuro com entusiasmo.",
+                    "value": "1"
+                },
+                {
+                    "option": "Ela diz que prefere viver o presente e não pensar muito no futuro.",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "question": "Ela tem ficado mais secreta sobre onde vai ou com quem está?",
+            "value": "7",
+            "respostas": [
+                {
+                    "option": "Sim, ela fica evasiva e sempre diz que está com amigas, mas nunca me dá detalhes.",
+                    "value": "5"
+                },
+                {
+                    "option": "Às vezes ela me diz onde vai, mas com respostas vagas.",
+                    "value": "3"
+                },
+                {
+                    "option": "Não, ela sempre me conta exatamente onde está e com quem está.",
+                    "value": "1"
+                },
+                {
+                    "option": "Ela tem saído sem me avisar e nunca diz com quem está.",
+                    "value": "4"
+                }
+            ]
+        },
+        {
+            "question": "Ela tenta te afastar das amigas ou da família?",
+            "value": "8",
+            "respostas": [
+                {
+                    "option": "Sim, ela sempre tenta me convencer a não sair com minhas amigas ou familiares.",
+                    "value": "5"
+                },
+                {
+                    "option": "Às vezes, ela fica chateada quando saio com minhas amigas, mas tenta entender.",
+                    "value": "3"
+                },
+                {
+                    "option": "Não, ela incentiva que eu passe tempo com minhas amigas e minha família.",
+                    "value": "1"
+                },
+                {
+                    "option": "Ela nunca me impede de ver minhas amigas ou familiares.",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "question": "Ela tem se mostrado mais distante ou fria quando estão juntas?",
+            "value": "9",
+            "respostas": [
+                {
+                    "option": "Sim, ela tem se mostrado distante e menos carinhosa.",
+                    "value": "5"
+                },
+                {
+                    "option": "Às vezes ela está mais calada ou parece cansada, mas ainda demonstra carinho.",
+                    "value": "3"
+                },
+                {
+                    "option": "Não, ela tem se mostrado tão carinhosa quanto sempre foi.",
+                    "value": "1"
+                },
+                {
+                    "option": "Ela é muito afetuosa e sempre me faz sentir especial.",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "question": "Ela evita tocar no assunto sobre o que está acontecendo entre vocês?",
+            "value": "10",
+            "respostas": [
+                {
+                    "option": "Sim, ela sempre muda de assunto ou evita falar sobre isso.",
+                    "value": "4"
+                },
+                {
+                    "option": "Às vezes ela tenta falar, mas fica desconfortável.",
+                    "value": "2"
+                },
+                {
+                    "option": "Não, ela sempre fala abertamente sobre o que está acontecendo entre nós.",
+                    "value": "1"
+                },
+                {
+                    "option": "Ela me disse diretamente que não há nada de errado.",
+                    "value": "3"
+                }
+            ]
+        }
+    ],
+    "resultadoQuiz": [
+        {
+            "pontos": "0",
+            "title": "Nada para se preocupar",
+            "retorno": "Com base nas suas respostas, não parece haver grandes motivos para preocupação. Seu relacionamento parece estar indo bem. Às vezes, as inseguranças podem surgir, mas é importante confiar na sua parceira e continuar a comunicação aberta."
+        },
+        {
+            "pontos": "5",
+            "title": "Desconfiança moderada",
+            "retorno": "Você está começando a perceber alguns sinais que podem indicar que algo não está certo. Embora não seja possível afirmar que há traição, talvez seja hora de conversar abertamente com sua parceira sobre suas preocupações e como se sente em relação à situação."
+        },
+        {
+            "pontos": "10",
+            "title": "Sinais fortes de traição",
+            "retorno": "Com base nas suas respostas, há vários sinais de que sua parceira pode estar agindo de forma suspeita. Isso pode indicar que algo está errado no relacionamento, e é importante ter uma conversa sincera e direta com ela para esclarecer os sentimentos e a situação."
+        },
+        {
+            "pontos": "15",
+            "title": "Possível traição confirmada",
+            "retorno": "As respostas indicam que há indícios claros de traição, ou pelo menos de um relacionamento que não está mais saudável. É fundamental que você tenha uma conversa séria com sua parceira para entender o que está acontecendo e decidir os próximos passos em seu relacionamento."
+        }
+    ]
+}

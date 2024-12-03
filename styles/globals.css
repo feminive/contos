@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tinyMCE p {
+  text-align: justify;
+  word-wrap: break-word;
+  margin-bottom: 1em;
+}

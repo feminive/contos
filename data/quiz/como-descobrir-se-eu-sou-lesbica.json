@@ -1,0 +1,255 @@
+{
+    "metaQuiz": [
+        {
+            "title": "Como descobrir se eu sou lésbica",
+            "slug": "como-descobrir-se-eu-sou-lesbica",
+            "description": "Descubra se você é lésbica nesse rápido quiz, a jornada de descobrimento da sexualidade é longa mas você pode ter alguma ajuda!",
+            "img": "/quiz/lesbicas-quiz.webp",
+            "published": "2024-10-09"
+        }
+    ],
+    "questions": [
+        {
+            "question": "Quando você pensa em romance ou namoro, com quem você imagina estar?",
+            "value": "1",
+            "respostas": [
+                {
+                    "option": "Eu imagino namorar com um menino.",
+                    "value": "0"
+                },
+                {
+                    "option": "Eu não sei ainda, mas talvez um menino.",
+                    "value": "1"
+                },
+                {
+                    "option": "Eu não consigo parar de pensar em namorar uma menina.",
+                    "value": "4"
+                },
+                {
+                    "option": "Eu me sinto mais atraída pela ideia de estar com uma menina, mas ainda estou confusa.",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "question": "Quando você vê uma mulher ou menina muito bonita, o que sente?",
+            "value": "2",
+            "respostas": [
+                {
+                    "option": "Eu fico admirando e me sinto apenas inspirada.",
+                    "value": "0"
+                },
+                {
+                    "option": "Eu fico um pouco tímida, mas sem entender bem o que sinto.",
+                    "value": "1"
+                },
+                {
+                    "option": "Eu fico atraída e gostaria de conhecer melhor.",
+                    "value": "3"
+                },
+                {
+                    "option": "Eu me sinto muito atraída, e às vezes me pego pensando nela.",
+                    "value": "4"
+                }
+            ]
+        },
+        {
+            "question": "Quando você vê casais de meninas se beijando ou em um relacionamento, como você se sente?",
+            "value": "3",
+            "respostas": [
+                {
+                    "option": "Eu vejo com naturalidade, não sinto nada de especial.",
+                    "value": "0"
+                },
+                {
+                    "option": "Eu fico curiosa, mas não sei como reagir.",
+                    "value": "1"
+                },
+                {
+                    "option": "Eu fico emocionada e me sinto feliz por elas, como se fosse algo muito bonito.",
+                    "value": "3"
+                },
+                {
+                    "option": "Eu fico imaginando o que seria se fosse eu no lugar de uma delas.",
+                    "value": "4"
+                }
+            ]
+        },
+        {
+            "question": "Como você se sente quando está com amigas ou mulheres que te atraem?",
+            "value": "4",
+            "respostas": [
+                {
+                    "option": "Eu só vejo como amizade e não sinto mais nada.",
+                    "value": "0"
+                },
+                {
+                    "option": "Eu fico um pouco desconfortável, mas tento entender o que isso significa.",
+                    "value": "1"
+                },
+                {
+                    "option": "Eu fico nervosa e às vezes ansiosa quando estou perto, mas não entendo o motivo.",
+                    "value": "2"
+                },
+                {
+                    "option": "Eu me sinto muito à vontade e, às vezes, sinto um desejo mais forte de estar perto delas de uma forma diferente.",
+                    "value": "4"
+                }
+            ]
+        },
+        {
+            "question": "Como você se sente quando pensa em se apaixonar?",
+            "value": "5",
+            "respostas": [
+                {
+                    "option": "Eu imagino que vou me apaixonar por um menino.",
+                    "value": "0"
+                },
+                {
+                    "option": "Eu penso que poderia me apaixonar por um menino, mas também me pergunto se isso é realmente o que eu quero.",
+                    "value": "2"
+                },
+                {
+                    "option": "Eu me vejo apaixonada por uma menina e isso me faz sentir bem.",
+                    "value": "4"
+                },
+                {
+                    "option": "Eu me vejo apaixonada por uma menina, e às vezes me pego pensando o que isso significa para mim.",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "question": "Quando você pensa sobre a ideia de ter um relacionamento sério, com quem você imagina isso?",
+            "value": "6",
+            "respostas": [
+                {
+                    "option": "Eu imagino que seria com um homem.",
+                    "value": "0"
+                },
+                {
+                    "option": "Eu não sei, talvez um homem, mas ainda não tenho certeza.",
+                    "value": "1"
+                },
+                {
+                    "option": "Eu me imagino em um relacionamento sério com uma mulher.",
+                    "value": "4"
+                },
+                {
+                    "option": "Eu sinto que gostaria de ter um relacionamento sério com uma mulher, mas não sei bem o que isso implica.",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "question": "Como você se sente ao pensar em sua futura vida amorosa e sexual?",
+            "value": "7",
+            "respostas": [
+                {
+                    "option": "Eu acho que vou me envolver com um homem, e isso é o que espero para o futuro.",
+                    "value": "0"
+                },
+                {
+                    "option": "Eu fico em dúvida se poderia me ver com um homem ou uma mulher.",
+                    "value": "2"
+                },
+                {
+                    "option": "Eu me vejo com uma mulher, e me sinto confortável pensando nisso.",
+                    "value": "4"
+                },
+                {
+                    "option": "Eu imagino uma vida amorosa e sexual com mulheres, e isso me faz sentir feliz e completa.",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "question": "Você já se sentiu atraída por uma amiga ou colega de escola/atividade?",
+            "value": "8",
+            "respostas": [
+                {
+                    "option": "Não, nunca senti isso.",
+                    "value": "0"
+                },
+                {
+                    "option": "Eu me sinto muito amiga, mas às vezes fico um pouco confusa sobre os sentimentos.",
+                    "value": "1"
+                },
+                {
+                    "option": "Eu já senti algo além de amizade por uma amiga e fiquei um pouco insegura sobre isso.",
+                    "value": "3"
+                },
+                {
+                    "option": "Sim, eu já me senti atraída por uma amiga, e não sei exatamente o que isso significa.",
+                    "value": "4"
+                }
+            ]
+        },
+        {
+            "question": "Quando você conversa sobre relacionamentos com suas amigas ou com pessoas de confiança, como você se sente?",
+            "value": "9",
+            "respostas": [
+                {
+                    "option": "Eu gosto de conversar sobre meninos, e não imagino conversar sobre meninas.",
+                    "value": "0"
+                },
+                {
+                    "option": "Eu fico em dúvida sobre o que falar, pois tenho medo de como as pessoas vão reagir.",
+                    "value": "1"
+                },
+                {
+                    "option": "Eu gosto de conversar sobre meninas com minhas amigas, e fico curiosa para saber o que elas acham.",
+                    "value": "3"
+                },
+                {
+                    "option": "Eu me sinto muito à vontade falando sobre meninas e o que sinto, como se isso fosse normal para mim.",
+                    "value": "4"
+                }
+            ]
+        },
+        {
+            "question": "Como você lida com os sentimentos de atração por outras meninas?",
+            "value": "10",
+            "respostas": [
+                {
+                    "option": "Eu nunca pensei sobre isso, nem sei se me sentiria atraída por uma menina.",
+                    "value": "0"
+                },
+                {
+                    "option": "Eu me sinto confusa às vezes, não sei se estou apenas admirando ou sentindo algo mais.",
+                    "value": "1"
+                },
+                {
+                    "option": "Eu sinto uma atração real e forte por uma menina, e isso me faz sentir bem.",
+                    "value": "4"
+                },
+                {
+                    "option": "Eu sinto que gosto de meninas, e isso é algo natural para mim, não há confusão.",
+                    "value": "5"
+                }
+            ]
+        }
+    ],
+    "resultadoQuiz": [
+        {
+            "pontos": "0",
+            "title": "Heterossexual",
+            "retorno": "Você provavelmente se identifica como heterossexual, mas o importante é que você está em um processo de autoconhecimento e explorando seus sentimentos de forma aberta. Não há problema algum em ter dúvidas ou se sentir confusa em alguns momentos. Lembre-se de que a sexualidade é fluida e pode mudar ao longo do tempo. O mais importante é se aceitar como você é, sem pressa, e sem pressões externas. Continue explorando sua identidade de forma tranquila e sem medo de ser quem você é, independentemente da orientação que tenha."
+        },
+        {
+            "pontos": "10",
+            "title": "Explorando novas possibilidades",
+            "retorno": "Você está se abrindo para novas possibilidades e começando a entender melhor sua sexualidade. Esse é um passo importante! Embora isso não seja suficiente para afirmar que você é lésbica, talvez você esteja começando a se sentir atraída por ambos os sexos. Lembre-se de que a sexualidade não é algo fixo e pode evoluir com o tempo. Não tenha pressa em rotular seus sentimentos ou sua orientação. Afeto e desejo são coisas diferentes e devem ser respeitados da mesma forma, sem pressões. Continue se dando o espaço para descobrir quem você realmente é, sem pressa, sem julgamentos."
+        },
+        {
+            "pontos": "20",
+            "title": "Bissexualidade em você",
+            "retorno": "Você está mais consciente de seus sentimentos e das suas atrações, o que é uma parte fundamental do autoconhecimento. É muito possível que você esteja começando a se identificar com a bissexualidade, já que sente atração por ambos os sexos. Lembre-se de que não há problema algum em ser bissexual, e a sua sexualidade não precisa ser definida de imediato. Dê-se tempo para explorar suas emoções e para vivenciar relacionamentos com quem se sentir confortável, seja homem ou mulher. A chave é se aceitar como você é, sem pressões ou expectativas externas. Você está no caminho certo ao começar a compreender e aceitar seus sentimentos de forma autêntica."
+        },
+        {
+            "pontos": "30",
+            "title": "Lésbica",
+            "retorno": "Você está começando a perceber que sua atração por mulheres é mais do que apenas amizade. É um sinal de que você está se reconhecendo como lésbica. Esse é um processo de descoberta importante, e você pode se sentir mais confortável agora com essa ideia, ou ainda com algumas dúvidas. Lembre-se de que não existe uma única forma de ser lésbica e que a autodescoberta leva tempo. Continue se permitindo explorar quem você é, sem pressa e sem se sentir pressionada. A chave é se aceitar e se sentir confortável com a sua identidade sexual. Não importa onde você esteja na sua jornada, o importante é ser fiel a si mesma."
+        }
+    ]
+}

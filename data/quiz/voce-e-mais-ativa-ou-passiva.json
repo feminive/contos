@@ -1,0 +1,255 @@
+{
+    "metaQuiz": [
+        {
+            "title": "Você é mais ativa ou passiva em sua vida sexual?",
+            "slug": "voce-e-mais-ativa-ou-passiva",
+            "description": "Descubra seu estilo na intimidade! Este é um quiz leve para ajudar você a entender melhor suas preferências no momento a dois.",
+            "img": "/quiz/voce-e-mais-ativa-ou-passiva.png",
+            "published": "2024-11-10"
+        }
+    ],
+    "questions": [
+        {
+            "question": "Quando está em um momento a dois, você prefere:",
+            "value": "1",
+            "respostas": [
+                {
+                    "option": "Deixar a outra pessoa tomar a iniciativa.",
+                    "value": "1"
+                },
+                {
+                    "option": "Estar no controle da situação.",
+                    "value": "4"
+                },
+                {
+                    "option": "Alternar entre os dois papéis.",
+                    "value": "2"
+                },
+                {
+                    "option": "Ser surpreendida sem precisar guiar nada.",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "question": "Se a pessoa faz algo que você gosta muito, você:",
+            "value": "2",
+            "respostas": [
+                {
+                    "option": "Deixa que ela continue sem interferir.",
+                    "value": "1"
+                },
+                {
+                    "option": "Toma a frente para mostrar o que você quer.",
+                    "value": "4"
+                },
+                {
+                    "option": "Acompanha o ritmo da pessoa, se adaptando.",
+                    "value": "2"
+                },
+                {
+                    "option": "Aproveita em silêncio, sem precisar demonstrar muito.",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "question": "Você prefere sugerir novas experiências ou deixar que a outra pessoa sugira?",
+            "value": "3",
+            "respostas": [
+                {
+                    "option": "Prefiro sugerir e explorar novas ideias.",
+                    "value": "4"
+                },
+                {
+                    "option": "Gosto de acompanhar as sugestões do outro.",
+                    "value": "1"
+                },
+                {
+                    "option": "Depende do momento, sou flexível.",
+                    "value": "2"
+                },
+                {
+                    "option": "Gosto de manter as coisas do jeito que estão.",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "question": "Como você reage quando o(a) parceiro(a) propõe algo diferente?",
+            "value": "4",
+            "respostas": [
+                {
+                    "option": "Gosto de estar no comando e sugerir o próximo passo.",
+                    "value": "4"
+                },
+                {
+                    "option": "Prefiro seguir a sugestão sem me impor.",
+                    "value": "1"
+                },
+                {
+                    "option": "Depende da ideia, posso considerar e discutir.",
+                    "value": "2"
+                },
+                {
+                    "option": "Fico nervosa, mas aceito com certa cautela.",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "question": "Em um encontro, você tende a:",
+            "value": "5",
+            "respostas": [
+                {
+                    "option": "Tomar a iniciativa e guiar o momento.",
+                    "value": "4"
+                },
+                {
+                    "option": "Esperar a outra pessoa dar o primeiro passo.",
+                    "value": "1"
+                },
+                {
+                    "option": "Agir conforme o clima e o momento.",
+                    "value": "2"
+                },
+                {
+                    "option": "Ficar um pouco tímida, mas aceito o que vier.",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "question": "Se você está gostando da experiência, você tende a:",
+            "value": "6",
+            "respostas": [
+                {
+                    "option": "Demonstrar e sugerir mais intensidade.",
+                    "value": "4"
+                },
+                {
+                    "option": "Deixar a outra pessoa continuar guiando.",
+                    "value": "1"
+                },
+                {
+                    "option": "Acompanhar no mesmo ritmo, sem muita mudança.",
+                    "value": "2"
+                },
+                {
+                    "option": "Aproveitar discretamente sem tomar iniciativas.",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "question": "No que você pensa ao planejar uma noite especial?",
+            "value": "7",
+            "respostas": [
+                {
+                    "option": "Gosto de planejar e surpreender.",
+                    "value": "4"
+                },
+                {
+                    "option": "Prefiro que a outra pessoa organize tudo.",
+                    "value": "1"
+                },
+                {
+                    "option": "Posso sugerir algo, mas gosto que seja compartilhado.",
+                    "value": "2"
+                },
+                {
+                    "option": "Deixo as coisas acontecerem naturalmente.",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "question": "Quando o assunto é toque e carícias, você prefere:",
+            "value": "8",
+            "respostas": [
+                {
+                    "option": "Iniciar e definir o ritmo.",
+                    "value": "4"
+                },
+                {
+                    "option": "Ser conduzida e aproveitar o momento.",
+                    "value": "1"
+                },
+                {
+                    "option": "Ir alternando com a outra pessoa.",
+                    "value": "2"
+                },
+                {
+                    "option": "Receber com calma, sem interferir muito.",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "question": "Se o(a) parceiro(a) te perguntar o que você gosta, você:",
+            "value": "9",
+            "respostas": [
+                {
+                    "option": "Explico abertamente o que quero.",
+                    "value": "4"
+                },
+                {
+                    "option": "Fico um pouco tímida e deixo que a pessoa descubra.",
+                    "value": "1"
+                },
+                {
+                    "option": "Descrevo de forma geral e deixo que o momento guie.",
+                    "value": "2"
+                },
+                {
+                    "option": "Fico envergonhada e mudo de assunto.",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "question": "Em uma situação de intimidade, você prefere:",
+            "value": "10",
+            "respostas": [
+                {
+                    "option": "Conduzir e guiar a experiência.",
+                    "value": "4"
+                },
+                {
+                    "option": "Seguir o que o outro propõe.",
+                    "value": "1"
+                },
+                {
+                    "option": "Acompanhar e revezar com a outra pessoa.",
+                    "value": "2"
+                },
+                {
+                    "option": "Ficar mais na observação e aproveitamento do momento.",
+                    "value": "0"
+                }
+            ]
+        }
+    ],
+    "resultadoQuiz": [
+        {
+            "pontos": "0",
+            "title": "Mais Passiva",
+            "retorno": "Você tende a ser mais passiva e prefere deixar que a outra pessoa guie o momento. Nada de errado nisso! Cada uma tem seu jeito e é importante respeitar o que te faz bem."
+        },
+        {
+            "pontos": "10",
+            "title": "Exploradora",
+            "retorno": "Você está em um equilíbrio entre o ativo e o passivo. Gosta de explorar, mas sem necessariamente assumir o comando o tempo todo. Essa flexibilidade é ótima para conhecer e aproveitar."
+        },
+        {
+            "pontos": "20",
+            "title": "Equilibrada",
+            "retorno": "Você tem um estilo equilibrado! Sabe quando tomar a iniciativa e quando deixar a outra pessoa guiar. Esse balanço é perfeito para se adaptar a qualquer momento!"
+        },
+        {
+            "pontos": "30",
+            "title": "Mais Ativa",
+            "retorno": "Você tem uma personalidade ativa e prefere estar no controle! Gosta de guiar e definir o ritmo, o que pode ser muito empoderador. Continue explorando o que te faz bem!"
+        }
+    ]
+}
