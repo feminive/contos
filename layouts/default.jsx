@@ -4,6 +4,8 @@ import { Navbar } from "@/components/navbar";
 import { Heart } from "@/lib/icons";
 import Link from "next/link";
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 export default function DefaultLayout({ children, metadata }) {
   return (
     <div className="relative flex flex-col h-screen text-md">
@@ -14,7 +16,7 @@ export default function DefaultLayout({ children, metadata }) {
           content={metadata?.description || "Default description"}
         />
       </Head>
-
+      <SpeedInsights/>
       {/* Script do Microsoft Clarity */}
       <Script
         id="clarity-script"
