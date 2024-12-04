@@ -12,7 +12,7 @@ import { useState, useEffect } from "react";
 import { Pagination } from "@/components/Pagination";
 import { XLogo, InstagramLogo,TelegramLogo, EnvelopeSimple } from "@phosphor-icons/react";
 import Toast from "@/components/CustomToast";
-const POSTS_PER_PAGE = 6;
+const POSTS_PER_PAGE = 8;
 
 // Carregando o Sidebar dinamicamente com next/dynamic esse bagulho é muito maneiro 
 const Sidebar = dynamic(() => import("@/components/Sidebar"), {
