@@ -12,12 +12,11 @@ import { useState, useEffect } from "react";
 import { Pagination } from "@/components/Pagination";
 import { XLogo, InstagramLogo,TelegramLogo, EnvelopeSimple } from "@phosphor-icons/react";
 import Toast from "@/components/CustomToast";
+import Sidebar from "@/components/Sidebar"
 const POSTS_PER_PAGE = 8;
 
 // Carregando o Sidebar dinamicamente com next/dynamic esse bagulho é muito maneiro 
-const Sidebar = dynamic(() => import("@/components/Sidebar"), {
-  ssr: false, // Impede que o Sidebar seja renderizado no servidor para evitar a porra do hydratation dos infernos
-});
+
 
 async function getAllMarkdownFiles(dir) {
   let results = [];

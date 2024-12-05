@@ -11,6 +11,7 @@
     "create": "node utils/createPost.js"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@next/bundle-analyzer": "^15.0.2",
     "@next/mdx": "^15.0.2",
     "@nextui-org/card": "^2.0.34",

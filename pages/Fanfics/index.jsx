@@ -103,17 +103,17 @@ export async function getStaticProps() {
 export default function NovelasPage({ novelas }) {
   return (
     <DefaultLayout metadata={null}>
-      <section className="bg-brown/10 flex sm:flex-row flex-col justify-center sm:gap-20 gap-4 p-10">
+      <section className="bg-brown/10 flex sm:flex-row flex-col justify-center sm:p-10 p-0">
         <div className="flex items-center ">
-          <h1 className="flex flex-col mx-auto p-8 ">
+          <h1 className="flex flex-col mx-auto">
             <span className={title({ color: "pink" })}>Minhas&nbsp;</span>
             <span className={title({ color: "brown" })}>Novelas&nbsp;</span>
             <span className={title({ color: "pink" })}>eróticas</span>
           </h1>
         </div>
 
-        <div className="flex-1 flex items-center justify-center">
-          <p className="text-lg m-20 hyphens text-justify">
+        <div className="flex-1 flex items-center justify-center w-96  p-10">
+          <p className="text-lg hyphens text-justify">
             Eu adoro me perder no universo dos meus personagens, e por isso,
             meus contos eróticos e fanfics acabam se tornando bem longos!
             Pensando em facilitar o seu acompanhamento, resolvi organizar todas
@@ -126,7 +126,7 @@ export default function NovelasPage({ novelas }) {
         </div>
       </section>
 
-      <div className="novelas-page container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-7xl p-10 bg-brown/10">
+      <div className="novelas-page container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-7xl p-4 bg-brown/10">
         {novelas.length === 0 ? (
           <p>Nenhuma novela encontrada.</p>
         ) : (

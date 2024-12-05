@@ -92,7 +92,7 @@ export default function Faq() {
              <h3 className="font-semibold text-brown/90 text-2xl mt-10">
 Posso te mandar nudes e videos?        </h3>
         <p>
-          Prefiro que mande dinheiro se quiser minha atenção! Foto de pinto e pepeca, na internet tem muitos mais bonitos que o seus e a minha.
+          Não, Prefiro que mande dinheiro se quiser minha atenção! Foto de pinto e pepeca, na internet tem muitos mais bonitos que o seus e a minha. Se mandar é ban em qualquer rede.
         </p>
       </div>
     </DefaultLayout>
