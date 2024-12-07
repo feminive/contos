@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import DefaultLayout from "@/layouts/default";
 import { title } from "@/components/primitives";
 import "react-toastify/dist/ReactToastify.css";
-import { getPostByTag } from "../../../../data/fetchData";
+
 import { Calendar, Heart, Time, Eye } from "@/lib/icons";
 
 import {
