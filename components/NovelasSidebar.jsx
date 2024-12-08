@@ -1,80 +1,58 @@
-import { Card, CardFooter, Image, Button } from "@nextui-org/react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { formatString } from "../utils/formatString";
 import { PlusCircle, MinusCircle } from "@phosphor-icons/react";
-import { useState } from "react";
-
 const Novelas = ({ posts }) => {
+  // Verifica se posts é um array; se não for, define como um array vazio
   const novelaCountMap = (posts || []).reduce((acc, post) => {
     const { novela } = post;
     acc[novela] = (acc[novela] || 0) + 1;
     return acc;
   }, {});
 
-  const initialLimit = 10; // Limite inicial de itens 
+  // Limite inicial de itens exibidos
+  const initialLimit = 7;
   const [showAll, setShowAll] = useState(false);
 
-  
+  // Manipulador para alternar o estado de exibição
   const toggleShowAll = () => {
     setShowAll(!showAll);
   };
 
+  // Itens a serem exibidos, dependendo do estado
   const itemsToShow = showAll
     ? Object.entries(novelaCountMap)
     : Object.entries(novelaCountMap).slice(0, initialLimit);
 
-    return (
-      <div className="novelas">
-     <h2 className="text-brown my-9 text-2xl border-s-4 border-[#ff6790] pl-4">Novela</h2>
-     <div className="grid grid-cols-2 gap-2">
-          {itemsToShow.map(([novela, count]) => {
-            // Encontra os posts relacionados à novela
-            const post = posts.find(p => p.novela === novela);
-            return (
-
-              <Link
-              href={`/Fanfics/${post.novelSlug}`}
-              className="flex text-bold  w-full "key={novela} 
+  return (
+    <div className="novelas">
+      <h2 className="text-2xl text-brown my-9">Livros</h2>
+      <ul className="space-y-3">
+        {itemsToShow.map(([novela, count]) => (
+          <li key={novela} className="flex justify-between items-center">
+            <Link
+              href={`/Fanfics/${formatString(novela)}`}
+              className="text-left w-4/5 hover:bg-brown/70 hover:text-white hover:rounded-lg p-1"
             >
-              <Card
-                isFooterBlurred
-                radius="lg"
-                key={novela}
-                isHoverable={true}
-                className="group hover:cursor-pointer shadow-md relative mx-auto" 
-              >
-                <Image
-                  alt={novela}
-                  className="object-cover"
-                  height={125}
-                  src={`/${post.img}`}
-                  width={125}
-                />
-              <CardFooter
-                className="group-hover:block hidden before:bg-white/10 overflow-hidden absolute before:rounded-lg rounded-large w-full h-full shadow-sm z-10  justify-center items-center text-white text-lg font-bold"
-
->
-           {post.novela}
-                
-                </CardFooter>
-              </Card>
-              </Link>
-            );
-          })}
-        </div>
-    
-        {/* Botão para expandir ou recolher a lista */}
-        {Object.entries(novelaCountMap).length > initialLimit && (
-          <button
-            onClick={toggleShowAll}
-            className="hover:underline mt-5 flex mx-auto text-brown/80"
-          >
-            {showAll ? <MinusCircle size={32} /> : <PlusCircle size={32} />}
-          </button>
-        )}
-      </div>
-    );
-    
+              {novela}
+            </Link>
+            <span className="bg-brown/10 text-primary rounded-md w-7 h-7 flex items-center justify-center">
+              {count}
+            </span>
+          </li>
+        ))}
+      </ul>
+      {/* Botão para expandir ou recolher a lista */}
+      {Object.entries(novelaCountMap).length > initialLimit && (
+        <button
+          onClick={toggleShowAll}
+          className=" hover:underline mt-5 flex mx-auto text-brown/80"
+        >
+          {showAll ? <MinusCircle  size={32} /> : < PlusCircle size={32} />}
+        </button>
+      )}
+    </div>
+  );
 };
 
 export default Novelas;
