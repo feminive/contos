@@ -2,7 +2,7 @@ import React from "react";
 import NextHead from "next/head";
 
 const defaultOpenGraphImage = {
-  url: `${process.env.NEXT_PRIVATE_URL}/redes.png`,
+  url: `https://feminivefanfics.com.br/redes.png`,
   width: 800,
   height: 600,
   alt: "Feminive Fanfics Default Image",
@@ -110,7 +110,7 @@ export const Head: React.FC<HeadProps> = ({ metadata }) => {
     apple = "/feminive.ico",
     other = {
       rel: "apple-touch-icon-precomposed",
-      url: "/feminive.png",
+      url: "/feminive.ico",
     },
   } = icons;
 

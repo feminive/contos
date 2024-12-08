@@ -1,5 +1,5 @@
-import Head from "next/head"; // Usando o Head do Next.js diretamente
-import Script from "next/script"; // Para gerenciar scripts externos
+import Head from "next/head"; 
+import Script from "next/script"; 
 import { Navbar } from "@/components/navbar";
 import { Heart } from "@/lib/icons";
 import Link from "next/link";
@@ -11,6 +11,8 @@ export default function DefaultLayout({ children, metadata }) {
     <div className="relative flex flex-col h-screen text-md">
       <Head>
         {/* Metadados dinâmicos */}
+        <link href="/eu.jpg" rel="icon" />
+
         <meta
           name="description"
           content={metadata?.description || "Default description"}
