@@ -1,3 +1,4 @@
+'use client'
 import dynamic from "next/dynamic";
 import fs from "fs/promises";
 import path from "path";
