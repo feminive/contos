@@ -55,7 +55,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    sponsor: "/Contribuirs",
+    sponsor: "/Patrocinar",
     instagram: "https://www.instagram.com/feminivecontos/",
         telegram: "https://t.me/feminivefanfic",
 
