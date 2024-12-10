@@ -10,6 +10,7 @@ interface PriceCardProps {
   description: string;
   features: string[];
   popular?: boolean;
+  link: string
 }
 
 export function PriceCard({ title, price, description, features, popular, link }: PriceCardProps) {
