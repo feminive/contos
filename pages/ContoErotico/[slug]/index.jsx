@@ -11,7 +11,7 @@ import Markdown from "react-markdown";
 import SidebarSlug from "@/components/Sidebar";
 import { truncateContent } from "../../../utils/truncate";
 import readingTime from "reading-time";
-import { Eye, Heart, Timer, Article, Star } from "@phosphor-icons/react";
+import { Eye, Heart, Timer, Article } from "@phosphor-icons/react";
 import ScrollToTopButton from "../../../components/ScrollToTopButton";
 import FirstEpisodeBanner from "@/components/FirstEpisodeBanner";
 
@@ -21,7 +21,7 @@ function generateMetadata(post) {
   const truncado = truncateContent(post.content);
   return {
     title: post.title,
-    description: truncado,
+    description: `Conto Eróticos femininos feito na medida paras mulheres com o tema: ${post.category} `,
     canonical: `https://feminivefanfics.com.br/ContoErotico${post.slug}`,
     jsonLd: {
       "@context": "https://schema.org",

@@ -13,24 +13,24 @@ const pricingPlans = [
   {
     title: "Apoiador",
     price: "R$10",
-    description: "Perfect for small businesses just getting started",
-    features: ["Meus sinceros agradecimentos"],
-    link: "/plan/starter", // URL exclusiva do plano Starter
+    description: "Faça parte do grupo de apoiadores me ajudando a manter o trabalho mensalmente",
+    link: "https://livepix.gg/feminivefanfics/Apoiador", 
+    features: ["Meus sinceros agradecimentos", "Votação para novos temas", "Contato direto"],
   },
   {
-    title: "Apoio Único",
+    title: "Doação Única",
     price: "Livre",
     description: "Você não assina nada, mas pode contribuir com o valor que desejar.",
-    features: ["Meus sinceros agradecimentos"],
     popular: true,
-    link: "/plan/professional", // URL exclusiva do plano Professional
+    link: "https://livepix.gg/feminivefanfics", 
+    features: ["Meus sinceros agradecimentos"],
   },
   {
     title: "Mecenas",
     price: "R$25",
-    description: "For large organizations with advanced needs",
-    features: ["Meus sinceros agradecimentos"],
-    link: "/plan/enterprise", // URL exclusiva do plano Enterprise
+    description: "Para quem realmente é um entusiasta e ama trocar ideias sobre o assunto",
+    link: "https://livepix.gg/feminivefanfics/mecenas", 
+    features: ["Meus sinceros agradecimentos", "Votação para novos temas", "Contato direto", "Receba os contos antecipadamente por email", "Contato direto com a autora"],
   },
 ];
 

@@ -4,6 +4,7 @@ import {
   Navbar as NextUINavbar,
   NavbarContent,
   NavbarMenu,
+  Button,
   NavbarMenuToggle,
   NavbarItem,
   NavbarMenuItem,
@@ -11,7 +12,7 @@ import {
 } from "@nextui-org/react";
 import NextLink from "next/link";
 import Search from "@/components/search";
-
+import { HeartFilledIcon } from "./icons";
 import clsx from "clsx";
 //import UserLogedAvatar from "@/components/avatarLogado";
 // import UserUnlogedAvatar from "@/components/avatarDeslogado";
@@ -70,21 +71,21 @@ export const Navbar = () => {
           </Link> */}
         </NavbarItem>
         {/* <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem> */}
-        {/* <NavbarItem className="hidden md:flex">
+        
+      </NavbarContent>
+      <Search />
+      <NavbarItem className="hidden md:flex">
           <Button
             isExternal
             as={Link}
-            className="text-sm font-normal text-default-600 bg-default-100"
+            className="text-sm font-normal text-default-600 bg-default-100 h-8"
             href={siteConfig.links.sponsor}
             startContent={<HeartFilledIcon className="text-danger" />}
             variant="flat"
           >
-            Sponsor
+            Patrocine
           </Button>
-        </NavbarItem> */}
-      </NavbarContent>
-      <Search />
-
+        </NavbarItem>
       {/* Avatar */}
       <NavbarMenu>
         <div className="mx-auto mt-2 flex flex-col gap-2">
@@ -97,6 +98,7 @@ export const Navbar = () => {
             </NavbarMenuItem>
           ))}
         </div>
+   
       </NavbarMenu>
 
       {/* {status === "authenticated" ? <UserLogedAvatar /> : <UserUnlogedAvatar />} */}

@@ -55,7 +55,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    sponsor: "https://patreon.com/jrgarciadev",
+    sponsor: "/Contribuirs",
     instagram: "https://www.instagram.com/feminivecontos/",
         telegram: "https://t.me/feminivefanfic",
 

@@ -3,7 +3,7 @@
 import { Check } from "lucide-react";
 import { Button } from "@/components/hire/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/hire/ui/card";
-
+import Link from "next/link"
 interface PriceCardProps {
   title: string;
   price: string;
@@ -12,9 +12,9 @@ interface PriceCardProps {
   popular?: boolean;
 }
 
-export function PriceCard({ title, price, description, features, popular }: PriceCardProps) {
+export function PriceCard({ title, price, description, features, popular, link }: PriceCardProps) {
   return (
-    <Card className={`w-[300px] ${popular ? 'border-primary shadow-lg' : ''}`}>
+    <Card className={`w-[300px] h-96 flex flex-col ${popular ? "border-primary shadow-lg" : ""}`}>
       <CardHeader>
         {popular && (
           <div className="px-3 py-1 text-sm text-white bg-primary rounded-full w-fit mb-2">
@@ -30,7 +30,7 @@ export function PriceCard({ title, price, description, features, popular }: Pric
         </div>
         <p className="text-sm text-muted-foreground">{description}</p>
       </CardHeader>
-      <CardContent>
+      <CardContent className="flex-grow">
         <ul className="space-y-2">
           {features.map((feature, i) => (
             <li key={i} className="flex items-center gap-2">
@@ -40,10 +40,12 @@ export function PriceCard({ title, price, description, features, popular }: Pric
           ))}
         </ul>
       </CardContent>
-      <CardFooter>
+      <CardFooter className="mt-auto">
+        <Link href={link}>
         <Button className="w-full" variant={popular ? "default" : "outline"}>
-          Get Started
+          Patrocinar
         </Button>
+        </Link>
       </CardFooter>
     </Card>
   );
