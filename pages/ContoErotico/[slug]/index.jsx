@@ -14,6 +14,7 @@ import readingTime from "reading-time";
 import { Eye, Heart, Timer, Article } from "@phosphor-icons/react";
 import ScrollToTopButton from "../../../components/ScrollToTopButton";
 import FirstEpisodeBanner from "@/components/FirstEpisodeBanner";
+import { ReadingProgressBar } from '@/components/progress-bar';
 
 
 // Função para gerar os metadados do post
@@ -92,6 +93,7 @@ export default function BlogPost({ post, posts }) {
 
   return (
     <DefaultLayout metadata={generateMetadata(post)}>
+
       <ScrollToTopButton />
       <div className="flex flex-col sm:flex-row sm:mt-10 mt-0">
 
@@ -142,7 +144,10 @@ export default function BlogPost({ post, posts }) {
         <div className="sm:w-1/4 w-full sm:order-1 order-2">
           <SidebarSlug posts={posts} post={post} />
         </div>
+        <ReadingProgressBar />
+
       </div>
+
     </DefaultLayout>
   );
 }

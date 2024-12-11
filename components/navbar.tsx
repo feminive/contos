@@ -20,6 +20,7 @@ import { siteConfig } from "@/config/site";
 import DropdownNav from "@/components/dropdownNav";
 import { useSession } from "next-auth/react";
 import { useState } from "react";
+// import { ReadingProgressBar } from '@/components/progress-bar';
 export const Navbar = () => {
   //const { data: session, status } = useSession();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -102,6 +103,8 @@ export const Navbar = () => {
       </NavbarMenu>
 
       {/* {status === "authenticated" ? <UserLogedAvatar /> : <UserUnlogedAvatar />} */}
+      {/* <ReadingProgressBar /> */}
+
     </NextUINavbar>
   );
 };
