@@ -11,7 +11,7 @@ export default function DefaultLayout({ children, metadata }) {
     <div className="relative flex flex-col h-screen text-md">
       <Head>
         {/* Metadados dinâmicos */}
-        <link href="/eu.jpg" rel="icon" />
+        <link href="/feminive.ico" rel="icon" />
 
         <meta
           name="description"
