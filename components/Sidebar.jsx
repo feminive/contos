@@ -12,7 +12,7 @@ const Sidebar = ({ posts }) => {
   return (
     <aside className="p-4">
       <div className="items-center bg-[#FEF9FF] justify-center flex flex-col p-4 rounded-2xl">
-        <Link href={"/Contatos"}>
+        <Link href={"/Autora"}>
         <Image
                   isZoomed
          src="/eu.jpg"
