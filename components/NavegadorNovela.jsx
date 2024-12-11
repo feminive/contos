@@ -24,46 +24,49 @@ export default function NavegadorNovela({ currentPost, allPosts }) {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full mt-20">
-      {/* Cartão para a novela anterior */}
-      <div className="p-4 rounded-xl flex flex-row h-[120px]">
-        {previousPost ? (
-          <Link href={`/ContoErotico/${previousPost.slug}`}>
-            <div className="hover:bg-white flex flex-row h-full w-full rounded-xl">
-              <div className="bg-brown/20 items-center flex mr-4">
-                <CaretLeft size={32} className="text-white" />
-              </div>
-              <div className="flex flex-col leading-5 justify-center">
-                <div className="text-brown text-xl">Anterior</div>
-                {previousPost.title}
-              </div>
+    {/* Cartão para a novela anterior */}
+    <div className="p-4 rounded-xl flex flex-row h-[120px]">
+      {previousPost ? (
+        <Link href={`/ContoErotico/${previousPost.slug}`}>
+          <div className="hover:bg-white flex flex-row h-full w-full rounded-xl">
+            <div className="bg-brown/20 items-center flex mr-4">
+              <CaretLeft size={32} className="text-white" />
             </div>
-          </Link>
-        ) : (
-          <div className="w-full h-full  rounded-xl"></div> // Placeholder vazio
-        )}
-      </div>
-
-      {/* Cartão para voltar à novela atual */}
-      <div className="p-4 rounded-xl h-[120px] flex justify-center items-center"></div>
-
-      {/* Cartão para a próxima novela */}
-      <div className="p-4 rounded-xl flex flex-row h-[120px]">
-        {nextPost ? (
-          <Link href={`/ContoErotico/${nextPost.slug}`}>
-            <div className="hover:bg-white flex flex-row h-full w-full rounded-xl">
-              <div className="flex flex-col text-right leading-5 justify-center">
-                <div className="text-brown text-xl">Próximo</div>
-                {nextPost.title}
-              </div>
-              <div className="bg-brown/20 items-center flex ml-4">
-                <CaretRight size={32} className="text-white" />
-              </div>
+            <div className="flex flex-col leading-5 justify-center">
+              <div className="text-brown text-xl">Anterior</div>
+              {previousPost.title}
             </div>
-          </Link>
-        ) : (
-          <div className="w-full h-full  rounded-xl"></div> // Placeholder vazio
-        )}
-      </div>
+          </div>
+        </Link>
+      ) : (
+        <div className="w-full h-full rounded-xl"></div> // Placeholder vazio Para inidicar outra noovoela
+      )}
     </div>
+  
+    {/* Cartão central (opcional, para balancear o grid) */}
+    <div className="p-4 rounded-xl h-[120px] flex justify-center items-center">
+      {/* Se não quiser conteúdo aqui, pode deixar vazio ou usar um título */}
+    </div>
+  
+    {/* Cartão para a próxima novela */}
+    <div className="p-4 rounded-xl flex flex-row h-[120px]  justify-end">
+      {nextPost ? (
+        <Link href={`/ContoErotico/${nextPost.slug}`}>
+          <div className="hover:bg-white flex flex-row h-full w-full rounded-xl">
+            <div className="flex flex-col text-right leading-5 justify-center">
+              <div className="text-brown text-xl">Próximo</div>
+              {nextPost.title}
+            </div>
+            <div className="bg-brown/20 items-center flex ml-4">
+              <CaretRight size={32} className="text-white" />
+            </div>
+          </div>
+        </Link>
+      ) : (
+        <div className="w-full h-full rounded-xl"></div> // Placeholder vazio Para inidicar outra noovoela
+      )}
+    </div>
+  </div>
+  
   );
 }
