@@ -84,7 +84,7 @@ export const Navbar = () => {
             startContent={<HeartFilledIcon className="text-danger" />}
             variant="flat"
           >
-            Patrocine
+            Apoie
           </Button>
         </NavbarItem>
       {/* Avatar */}

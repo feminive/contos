@@ -18,12 +18,12 @@ const pricingPlans = [
     features: ["Meus sinceros agradecimentos", "Votação para novos temas", "Contato direto"],
   },
   {
-    title: "Doação Única",
+    title: "Faça um Pix",
     price: "Livre",
-    description: "Você não assina nada, mas pode contribuir com o valor que desejar.",
+    description: "Não há nenhum tipo de assinatura, apenas um pix demonstrando sua apreciação pelo meu trabalho!",
     popular: true,
     link: "https://livepix.gg/feminivefanfics", 
-    features: ["Meus sinceros agradecimentos"],
+    features: ["Meus sinceros agradecimentos", "Sugestão de temas para um novo conto."],
   },
   {
     title: "Mecenas",

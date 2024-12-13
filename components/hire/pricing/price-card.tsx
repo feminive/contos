@@ -4,6 +4,7 @@ import { Check } from "lucide-react";
 import { Button } from "@/components/hire/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/hire/ui/card";
 import Link from "next/link"
+
 interface PriceCardProps {
   title: string;
   price: string;
@@ -15,7 +16,7 @@ interface PriceCardProps {
 
 export function PriceCard({ title, price, description, features, popular, link }: PriceCardProps) {
   return (
-    <Card className={`w-[300px] h-96 flex flex-col ${popular ? "border-primary shadow-lg" : ""}`}>
+    <Card className={`w-[300px] min-h-[400px] flex flex-col ${popular ? "border-primary shadow-lg" : ""}`}>
       <CardHeader>
         {popular && (
           <div className="px-3 py-1 text-sm text-white bg-primary rounded-full w-fit mb-2">
@@ -43,9 +44,9 @@ export function PriceCard({ title, price, description, features, popular, link }
       </CardContent>
       <CardFooter className="mt-auto">
         <Link href={link}>
-        <Button className="w-full" variant={popular ? "default" : "outline"}>
-          Patrocinar
-        </Button>
+          <Button className="w-full" variant={popular ? "default" : "outline"}>
+            Apoiar
+          </Button>
         </Link>
       </CardFooter>
     </Card>
