@@ -32,10 +32,10 @@ export default function TagFilteredPosts({
                     className="rounded-xl"
                   />
                   <div className="mt-4 font-semibold text-xl text-brown">
-                    {posts[0].novela}
-                  </div>
+                    {posts[0].novel}
+                                      </div>
                   <p className="italic leading-6 text-center mt-2">
-                    &quot;{posts[0].novelaDesc || "Xereca"}&quot;
+                    &quot;{posts[0].novelDesc || "Xereca"}&quot;
                   </p>
                   <span className="text-brown cursor-pointer flex flex-row gap-2 mt-4 w-full justify-center p-2 rounded-xl">
                     <Link
@@ -69,9 +69,9 @@ export default function TagFilteredPosts({
             ) : (
               <p>Nenhum post encontrado para a tag &quot;{tag}&quot;.</p>
             )}
-            <div className="bg-[#FEF9FF] justify-center flex flex-col mt-10 p-4 rounded-2xl">
+            {/* <div className="bg-[#FEF9FF] justify-center flex flex-col mt-10 p-4 rounded-2xl">
               <NovelasSidebar posts={allPosts} />
-            </div>
+            </div> */}
             <div className="bg-[#FEF9FF] justify-center flex flex-col mt-10 p-4 rounded-2xl">
               <TagsSidebar posts={allPosts} />
             </div>
@@ -129,7 +129,7 @@ export async function getStaticProps({ params }) {
     };
   });
 
-  const allCategories = new Set(); // Adiciona um Set para coletar todas as Categorys
+  const allCategories = new Set(); // Adiciona um Set para coletar todas as Categories
 
   allPosts.forEach((post) => {
     if (post.category) {
@@ -152,7 +152,7 @@ export async function getStaticProps({ params }) {
       posts: filteredPosts,
       allPosts,
       tag: params.tag,
-      allCategories: Array.from(allCategories), // Envia as Categorys para o componente
+      allCategories: Array.from(allCategories), // Envia as Categories para o componente
     },
     revalidate: 60,
   };

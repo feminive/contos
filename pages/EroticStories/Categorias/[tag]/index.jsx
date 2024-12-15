@@ -33,7 +33,7 @@ export async function getServerSideProps({ params }) {
   };
 }
 
-export default function Categorys({ post, tags }) {
+export default function Categories({ post, tags }) {
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [postsToShow, setPostsToShow] = useState([]);
@@ -144,9 +144,9 @@ export default function Categorys({ post, tags }) {
                 </CardBody>
                 <CardFooter className="gap-2 flex justify-between items-center">
                   <div className="flex flex-row gap-2">
-                    {post.Categorys.data.map((Category) => (
+                    {post.Categories.data.map((Category) => (
                       <div key={Category.id}>
-                        <Link href={`/Categorys/${Category.type}`} passHref>
+                        <Link href={`/Categories/${Category.type}`} passHref>
                           <Chip
                             size="sm"
                             color="primary"

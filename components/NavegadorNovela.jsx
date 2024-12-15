@@ -33,7 +33,7 @@ export default function NavegadorNovela({ currentPost, allPosts }) {
               <CaretLeft size={32} className="text-white" />
             </div>
             <div className="flex flex-col leading-5 justify-center">
-              <div className="text-brown text-xl">Anterior</div>
+              <div className="text-brown text-xl">Previous</div>
               {previousPost.title}
             </div>
           </div>
@@ -54,7 +54,7 @@ export default function NavegadorNovela({ currentPost, allPosts }) {
         <Link href={`/EroticStories/${nextPost.slug}`}>
           <div className="hover:bg-white flex flex-row h-full w-full rounded-xl">
             <div className="flex flex-col text-right leading-5 justify-center">
-              <div className="text-brown text-xl">Próximo</div>
+              <div className="text-brown text-xl">Next</div>
               {nextPost.title}
             </div>
             <div className="bg-brown/20 items-center flex ml-4">

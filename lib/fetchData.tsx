@@ -1,7 +1,7 @@
 export const fetchData = async () => {
   try {
     const response = await fetch(
-      `${process.env.NEXT_PRIVATE_URL}/api/posts?populate[0]=author.avatar&populate[1]=Categorys&populate[2]=novelas`,
+      `${process.env.NEXT_PRIVATE_URL}/api/posts?populate[0]=author.avatar&populate[1]=Categories&populate[2]=novelas`,
       {
         headers: {
           Authorization: `Bearer ${process.env.TOKEN}`,
@@ -19,7 +19,7 @@ export const fetchData = async () => {
     return result.data.map((post: any) => {
       const attributes = post.attributes || {};
       const author = attributes.author?.data || null;
-      const Categorys = attributes.Categorys?.data || [];
+      const Categories = attributes.Categories?.data || [];
       const novelas = attributes.novelas?.data || [];
 
       // Verificação para evitar erros de leitura
@@ -41,7 +41,7 @@ export const fetchData = async () => {
               avatar: author.attributes?.avatar?.data?.attributes?.url || null,
             }
           : null,
-        Categorys: Categorys.map((Category: any) => ({
+        Categories: Categories.map((Category: any) => ({
           id: Category.id,
           type: Category.attributes?.type || null,
         })),

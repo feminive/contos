@@ -41,7 +41,7 @@ export default function Recomendado() {
               </div>
             </CardBody>
             <CardFooter className="flex flex-row gap-1 items-start justify-start text-left ">
-              {post.Categorys.map((Category) => (
+              {post.Categories.map((Category) => (
                 <div key={Category.id}>
                   <Chip
                     size="sm"

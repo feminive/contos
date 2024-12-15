@@ -31,7 +31,7 @@ const TagsSidebar = ({ posts }) => {
 
   return (
     <div className="tags ">
-     <h2 className="text-brown my-9 text-2xl border-s-4 border-[#ff6790] pl-4">Categorys</h2>
+     <h2 className="text-brown my-9 text-2xl border-s-4 border-[#ff6790] pl-4">Categories</h2>
 
       <div className=" flex flex-wrap gap-2">
         {itemsToShow.map(([tag, count]) => (
@@ -39,7 +39,7 @@ const TagsSidebar = ({ posts }) => {
             key={tag}
             className="text-sm px-2 bg-brown/5 text-brown border-1 border-brown/40 shadow-sm  rounded-lg  hover:bg-brown/30 "
           >
-            <Link href={`/Categorys/${tag}`}>{tag}</Link>
+            <Link href={`/Categories/${tag}`}>{tag}</Link>
           </span>
         ))}
 

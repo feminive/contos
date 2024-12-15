@@ -32,7 +32,7 @@ if (!fs.existsSync(POST_DIR)) {
     const episode = await question("Número do episódio: ");
     const novela = await question("Novela: ");
     const novelSlug = await question("Slug da novela: ");
-    const category = await question("Categorys (separadas por vírgula): ");
+    const category = await question("Categories (separadas por vírgula): ");
     const img = await question("Imagem (nome do arquivo): ");
     const novelaDesc = await question("Descrição da novela: ");
 
