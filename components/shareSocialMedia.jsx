@@ -13,7 +13,7 @@ export default function ShareSocialMedia({ slug, post, tags, title }) {
   return (
     <div className="flex flex-wrap gap-1 items-center my-10">
       <FacebookShareButton
-        url={`https://feminivefanfics.com.br/ContoErotico/${slug}`}
+        url={`https://feminivefanfics.com.br/EroticStories/${slug}`}
         quote={post}
         hashtag={tags}
       >
@@ -24,7 +24,7 @@ export default function ShareSocialMedia({ slug, post, tags, title }) {
         />
       </FacebookShareButton>
       <WhatsappShareButton
-        url={`https://feminivefanfics.com.br/ContoErotico/${slug}`}
+        url={`https://feminivefanfics.com.br/EroticStories/${slug}`}
         title={title}
         separator=":: "
       >
@@ -36,7 +36,7 @@ export default function ShareSocialMedia({ slug, post, tags, title }) {
         />
       </WhatsappShareButton>
       <TelegramShareButton
-        url={`https://feminivefanfics.com.br/ContoErotico/${slug}`}
+        url={`https://feminivefanfics.com.br/EroticStories/${slug}`}
         title={title}
       >
         <Telegram
@@ -46,7 +46,7 @@ export default function ShareSocialMedia({ slug, post, tags, title }) {
         />
       </TelegramShareButton>
       <RedditShareButton
-        url={`https://feminivefanfics.com.br/ContoErotico/${slug}`}
+        url={`https://feminivefanfics.com.br/EroticStories/${slug}`}
         title={title}
         hashtag={tags}
       >
@@ -57,7 +57,7 @@ export default function ShareSocialMedia({ slug, post, tags, title }) {
         />
       </RedditShareButton>
       <TwitterShareButton
-        url={`https://feminivefanfics.com.br/ContoErotico/${slug}`}
+        url={`https://feminivefanfics.com.br/EroticStories/${slug}`}
         title={title}
       >
         <Twitter

@@ -33,7 +33,7 @@ const Novelas = ({ posts }) => {
             return (
 
               <Link
-              href={`/Fanfics/${post.novelSlug}`}
+              href={`/Fanfics/${post.novelaSlug}`}
               className="flex text-bold  w-full "key={novela} 
             >
               <Card

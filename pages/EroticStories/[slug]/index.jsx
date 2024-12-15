@@ -23,7 +23,7 @@ function generateMetadata(post) {
   return {
     title: post.title,
     description: `Conto Eróticos femininos feito na medida paras mulheres com o tema: ${post.category} `,
-    canonical: `https://feminivefanfics.com.br/ContoErotico${post.slug}`,
+    canonical: `https://feminivefanfics.com.br/EroticStories${post.slug}`,
     jsonLd: {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
@@ -35,7 +35,7 @@ function generateMetadata(post) {
       genre: "Contos Eróticos",
       wordcount: "1120",
       publisher: "Feminive Fanfics",
-      url: `https://feminivefanfics.com.br/ContoErotico/${post.slug}`,
+      url: `https://feminivefanfics.com.br/EroticStories/${post.slug}`,
       datePublished: post.published,
       dateCreated: post.published,
       dateModified: post.published,
@@ -52,7 +52,7 @@ function generateMetadata(post) {
       description: truncado,
       publishedTime: post.published,
       authors: "Feminive",
-      url: `https://feminivefanfics.com.br/ContoErotico/${post.slug}`,
+      url: `https://feminivefanfics.com.br/EroticStories/${post.slug}`,
       type: "article",
       images: {
         url: `https://feminivefanfics.com.br/${post.img}`,
@@ -188,12 +188,13 @@ export async function getStaticPaths() {
   const postsDirectory = path.join(process.cwd(), "posts");
   const markdownFiles = getAllMarkdownFiles(postsDirectory);
 
-  const paths = markdownFiles.map((filePath) => {
-    const fileContents = fs.readFileSync(filePath, "utf8");
-    const { data } = matter(fileContents);
-
-    return { params: { slug: data.slug } };
-  });
+  const paths = markdownFiles
+    .map((filePath) => {
+      const fileContents = fs.readFileSync(filePath, "utf8");
+      const { data } = matter(fileContents);
+      return data.slug ? { params: { slug: data.slug } } : null;
+    })
+    .filter(Boolean); // Removes null or undefined entries
 
   return {
     paths,

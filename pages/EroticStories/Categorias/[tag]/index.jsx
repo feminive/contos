@@ -33,7 +33,7 @@ export async function getServerSideProps({ params }) {
   };
 }
 
-export default function Categorias({ post, tags }) {
+export default function Categories({ post, tags }) {
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [postsToShow, setPostsToShow] = useState([]);
@@ -102,7 +102,7 @@ export default function Categorias({ post, tags }) {
               >
                 <CardHeader className="flex justify-between items-start">
                   <h2 className={"text-xl  text-brown  leading-6"}>
-                    <Link href={`/ContoErotico/${post.slug}`} passHref>
+                    <Link href={`/EroticStories/${post.slug}`} passHref>
                       {post.title}
                     </Link>
                   </h2>
@@ -144,23 +144,23 @@ export default function Categorias({ post, tags }) {
                 </CardBody>
                 <CardFooter className="gap-2 flex justify-between items-center">
                   <div className="flex flex-row gap-2">
-                    {post.categorias.data.map((categoria) => (
-                      <div key={categoria.id}>
-                        <Link href={`/Categorias/${categoria.type}`} passHref>
+                    {post.Categories.data.map((Category) => (
+                      <div key={Category.id}>
+                        <Link href={`/Categories/${Category.type}`} passHref>
                           <Chip
                             size="sm"
                             color="primary"
                             variant="bordered"
                             className=" border-1  hover:bg-[pink]/20 hover:cursor-pointer"
                           >
-                            {categoria.type}
+                            {Category.type}
                           </Chip>
                         </Link>
                       </div>
                     ))}
                   </div>
                   <div className="flex justify-end items-end">
-                    <Link href={`/ContoErotico/${post.slug}`} passHref>
+                    <Link href={`/EroticStories/${post.slug}`} passHref>
                       <Button
                         size={"sm"}
                         color={"primary"}
