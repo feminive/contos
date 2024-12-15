@@ -27,7 +27,7 @@ export default function NavegadorNovela({ currentPost, allPosts }) {
     {/* Cartão para a novela anterior */}
     <div className="p-4 rounded-xl flex flex-row h-[120px]">
       {previousPost ? (
-        <Link href={`/ContoErotico/${previousPost.slug}`}>
+        <Link href={`/EroticStories/${previousPost.slug}`}>
           <div className="hover:bg-white flex flex-row h-full w-full rounded-xl">
             <div className="bg-brown/20 items-center flex mr-4">
               <CaretLeft size={32} className="text-white" />
@@ -51,7 +51,7 @@ export default function NavegadorNovela({ currentPost, allPosts }) {
     {/* Cartão para a próxima novela */}
     <div className="p-4 rounded-xl flex flex-row h-[120px]  justify-end">
       {nextPost ? (
-        <Link href={`/ContoErotico/${nextPost.slug}`}>
+        <Link href={`/EroticStories/${nextPost.slug}`}>
           <div className="hover:bg-white flex flex-row h-full w-full rounded-xl">
             <div className="flex flex-col text-right leading-5 justify-center">
               <div className="text-brown text-xl">Próximo</div>

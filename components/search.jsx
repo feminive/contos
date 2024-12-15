@@ -51,7 +51,7 @@ export default function Search() {
   };
 
   const handleSelection = (slug) => {
-    router.push(`/ContoErotico/${slug}`); // Redireciona ao selecionar o post
+    router.push(`/EroticStories/${slug}`); // Redireciona ao selecionar o post
   };
 
   return (
@@ -62,7 +62,7 @@ export default function Search() {
       isLoading={isLoading} // Exibe o carregamento
       items={items} // Itens filtrados
       size={"sm"}
-      placeholder="Digite para pesquisar."
+      placeholder="Search"
       variant="bordered"
       onInputChange={handleInputChange} // Atualiza filtro e faz busca
       aria-label="Campo de pesquisa"

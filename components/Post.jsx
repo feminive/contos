@@ -29,7 +29,7 @@ export default function Post({ post }) {
     .join(" ");
 
   return (
-    <Link href={`/ContoErotico/${post.slug}`} passHref key={post.id}>
+    <Link href={`/EroticStories/${post.slug}`} passHref key={post.id}>
       <Card className="w-full shadow-none bg-[#fef9ff] hover:bg-[#fff] cursor-pointer">
         <CardHeader className="flex justify-between items-start">
           <h2 className="sm:text-2xl text-lg text-brown flex justify-between w-full">

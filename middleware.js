@@ -13,7 +13,7 @@ export async function middleware(request) {
     return NextResponse.redirect(new URL("/Login", request.url));
   }
 
-  if (request.nextUrl.pathname === "/ContoErotico") {
+  if (request.nextUrl.pathname === "/EroticStories") {
     return NextResponse.redirect(new URL("/", request.url));
   }
 
@@ -26,5 +26,5 @@ export async function middleware(request) {
 }
 
 export const config = {
-  matcher: ["/painel", "/profile", "/dashboard", "/settings", "/ContoErotico"], // Adicione todas as rotas que você deseja proteger
+  matcher: ["/painel", "/profile", "/dashboard", "/settings", "/EroticStories"], // Adicione todas as rotas que você deseja proteger
 };
