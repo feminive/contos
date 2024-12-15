@@ -128,8 +128,8 @@ export async function getStaticPaths() {
   markdownFiles.forEach((filePath) => {
     const fileContents = fs.readFileSync(filePath, "utf8");
     const { data } = matter(fileContents);
-    if (data.novelSlug) {
-      slugs.add(data.novelSlug);
+    if (data.novelaSlug) {
+      slugs.add(data.novelaSlug);
     }
   });
 
@@ -159,7 +159,7 @@ export async function getStaticProps({ params }) {
     };
   });
 
-  const filteredPosts = allPosts.filter((p) => p.novelSlug === params.slug);
+  const filteredPosts = allPosts.filter((p) => p.novelaSlug === params.slug);
 
   const sortedPosts = filteredPosts.sort(
     (a, b) => (a.episode || 0) - (b.episode || 0)

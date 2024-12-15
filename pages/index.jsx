@@ -51,12 +51,12 @@ export default function IndexPage({ posts }) {
       <div className="bg-[#f4f4f4]">
         <section className="bg-brown/10 flex sm:flex-row flex-col justify-center sm:gap-20 gap-4">
           <div className="flex flex-col sm:my-16 my-10 sm:ml-40 mx-auto">
-            <div className={title({ color: "pink" })}>A Beleza&nbsp;</div>
-            <div className={title({ color: "brown" })}>inexorável&nbsp;</div>
-            <div className={title({ color: "pink" })}>do querer desejar</div>
+            <div className={title({ color: "pink" })}>The inevitable&nbsp;</div>
+            <div className={title({ color: "brown" })}>Beauty&nbsp;</div>
+            <div className={title({ color: "pink" })}>of longing to desire</div>
             <h1 className="text-lg text-black/60 mt-1">
-              Contos Eróticos femininos
-            </h1>
+            Female Erotic Stories
+</h1>
           </div>
           <div className="flex items-end mx-auto">
             <Image
@@ -124,10 +124,10 @@ export default function IndexPage({ posts }) {
 
         <div className="w-full flex justify-center my-20">
           <div className={title({ color: "pink", size: "sm" })}>
-            Eu tenho {posts.length} &nbsp;
+            I Have {posts.length} &nbsp;
           </div>
           <h1 className={title({ color: "brown", size: "sm" })}>
-            Fanfics Eróticas&nbsp;
+            Erotic Stories&nbsp;
           </h1>
         </div>
 

@@ -2,10 +2,10 @@ import React from "react";
 import NextHead from "next/head";
 
 const defaultOpenGraphImage = {
-  url: `https://feminivefanfics.com.br/redes.png`,
+  url: `https://feminiveroticstories.com/redes.png`,
   width: 800,
   height: 600,
-  alt: "Feminive Fanfics Default Image",
+  alt: "Feminive Erotic Stories Image",
 };
 
 interface Metadata {
@@ -71,10 +71,10 @@ interface HeadProps {
 
 export const Head: React.FC<HeadProps> = ({ metadata }) => {
   const {
-    title = "Feminive Fanfics Contos Eróticos Femininos",
-    description = "Um blog de contos eróticos femininos feito para mulheres.",
-    keywords = "contos eróticos, blog, fanfics femininas, histórias sensuais, contos para mulheres",
-    canonical = "https://feminivefanfics.com.br",
+    title = "Feminive Erotic Stories",
+ description = "A blog of erotic female stories made for women.",
+keywords = "erotic stories, blog, female fanfics, sensual tales, stories for women",
+    canonical = "https://feminiveroticstories.com",
     openGraph = {},
     robots = {},
     icons = {},
@@ -83,10 +83,10 @@ export const Head: React.FC<HeadProps> = ({ metadata }) => {
   } = metadata || {};
 
   const {
-    url = "https://feminivefanfics.com.br",
-    siteName = "Feminive Fanfics",
+    url = "https://feminiveroticstories.com",
+    siteName = "Feminive Erotic Stories",
     image = defaultOpenGraphImage, // Use `image` in place of `images`
-    locale = "pt_BR",
+    locale = "EN",
     type = "website",
   } = openGraph;
 
@@ -116,11 +116,11 @@ export const Head: React.FC<HeadProps> = ({ metadata }) => {
 
   const {
     card = "summary_large_image",
-    title: twitterTitle = "Feminive Fanfics",
+    title: twitterTitle = "Feminive Erotic Stories",
     description:
-      twitterDescription = "Um site de Contos Eróticos feito para garotas!",
+      twitterDescription = "A blog of erotic stories made for women.",
     creator = "@feminivefanfics",
-    image: twitterImage = "https://feminivefanfics.com.br/twitter.png", // This should be dynamic based on metadata
+    image: twitterImage = "https://feminiveroticstories.com/twitter.png", // This should be dynamic based on metadata
   } = twitter;
 
   const {
@@ -133,25 +133,25 @@ export const Head: React.FC<HeadProps> = ({ metadata }) => {
         "feminivefanfics.com.br",
       ],
     } = {},
-    bookmarks: verificationBookmarks = ["https://feminivefanfics.com.br"],
+    bookmarks: verificationBookmarks = ["https://feminiveroticstories.com"],
   } = verification;
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: title,
-    alternativeHeadline: "Feminive Fanfics - Contos Eróticos",
-    image: "https://feminivefanfics.com.bg/redes.png",
+    alternativeHeadline: "Feminive Erotic Stories",
+    image: "https://feminiveroticstories.com/redes.png",
     award: "Melhor conto erótico do",
-    editor: "Feminive Fanfics",
-    genre: "Contos Eróoticos",
+    editor: "Feminive Erotic Stories",
+    genre: "Contos Eróticos",
     keywords: "Conto Erótico, Contos Eróticos",
     publisher: "Feminive Fanfics",
-    url: "https://feminivefanfics.com.br",
+    url: "https://feminiveroticstories.com",
     datePublished: "2024-09-20",
     dateCreated: "2024-09-20",
     dateModified: "2024-09-20",
-    description: "Um site de Contos Eróticos para meninas",
+    description: "A blog of erotic female stories made for women.",
 
     author: {
       "@type": "Person",

@@ -37,7 +37,7 @@ export default function FirstNovelaPage({ post, posts }) {
   }
 
   return (
-    <Link href={`/ContoErotico/${firstNovela.slug}`} className="">
+    <Link href={`/EroticStories/${firstNovela.slug}`} className="">
       <div className="rounded-md mb-4 relative h-[250px] rounded flex items-center">
         {/* Texto sobre a imagem */}
         

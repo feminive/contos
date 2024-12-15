@@ -28,7 +28,7 @@ export default function Recomendado() {
         Recomendados{" "}
       </h2>
       {randomPosts.map((post) => (
-        <Link key={post.id} href={`/ContoErotico/${post.slug}`} passHref>
+        <Link key={post.id} href={`/EroticStories/${post.slug}`} passHref>
           <Card className="border-none shadow-none  hover:bg-brown/10 bg-[#fef9ff]">
             <CardHeader className="flex -mb-7">
               <h2 className="text-brown font-semibold leading-tight text-md mb-2">
@@ -41,13 +41,13 @@ export default function Recomendado() {
               </div>
             </CardBody>
             <CardFooter className="flex flex-row gap-1 items-start justify-start text-left ">
-              {post.categorias.map((categoria) => (
-                <div key={categoria.id}>
+              {post.Categories.map((Category) => (
+                <div key={Category.id}>
                   <Chip
                     size="sm"
                     className="border-brown text-[brown] text-[0.7rem]  border rounded-lg   bg-transparent  hover:bg-[pink]/20 hover:cursor-pointer"
                   >
-                    {categoria.type}
+                    {Category.type}
                   </Chip>
                 </div>
               ))}
