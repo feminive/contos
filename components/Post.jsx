@@ -6,7 +6,7 @@ import { Heart, CalendarBlank, Star } from "@phosphor-icons/react";
 
 export default function Post({ post }) {
   const stats = readingTime(post.content);
-  const readingTimeText = stats.text.replace("min read", "minutos");
+  const readingTimeText = stats.text.replace("min read", "minutes");
   const [isNewPost, setIsNewPost] = useState(false);
 
   useEffect(() => {
@@ -21,15 +21,15 @@ export default function Post({ post }) {
       setIsNewPost(true);
     }
   }, [post.published]);
-
-  const categories = post.category;
+  
+  const categories = post.category || ''; // Garante que categories seja uma string vazia caso seja undefined ou null
   const formattedCategories = categories
     .split(", ")
     .map((category) => `${category}`)
     .join(" ");
 
   return (
-    <Link href={`/ContoErotico/${post.slug}`} passHref key={post.id}>
+    <Link href={`/EroticStories/${post.slug}`} passHref key={post.id}>
       <Card className="w-full shadow-none bg-[#fef9ff] hover:bg-[#fff] cursor-pointer">
         <CardHeader className="flex justify-between items-start">
           <h2 className="sm:text-2xl text-lg text-brown flex justify-between w-full">
@@ -48,12 +48,12 @@ export default function Post({ post }) {
           <CalendarBlank size={15} color={"#c88687"} />
           <small className="text-primary -ml-1">
             {post.published
-              ? new Intl.DateTimeFormat("pt-BR", {
-                  day: "numeric",
-                  month: "long",
-                  year: "numeric",
+              ? new Intl.DateTimeFormat("en-US", {
+                  month: "short", // Mês abreviado (exemplo: Jan, Feb, Mar)
+                  day: "numeric", // Dia como número (exemplo: 15)
+                  year: "numeric", // Ano com 4 dígitos
                 }).format(new Date(post.published))
-              : "Data de publicação não disponível"}
+              : "Publication date not available"}
           </small>
         </div>
         <CardBody className="relative">
@@ -67,7 +67,7 @@ export default function Post({ post }) {
         <CardFooter>
           <small className="text-black/60">{readingTimeText} </small>
           <small className="text-black/60 ml-4 ">
-            {post.content.trim().split(/\s+/).length} palavras
+            {post.content.trim().split(/\s+/).length} words
           </small>
           <small className="text-black/60 ml-4">{formattedCategories}</small>
         </CardFooter>

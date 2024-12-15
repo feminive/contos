@@ -61,7 +61,7 @@ async function getNovelasData() {
         // Adicionar uma nova novela se ainda não existir
         novelasMap.set(data.novela, {
           title: data.novela,
-          slug: data.novelSlug,
+          slug: data.novelaSlug,
           description: data.novelaDesc || null,
           image: data.img || "",
           maxEpisode: data.episode,

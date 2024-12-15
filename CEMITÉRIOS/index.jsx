@@ -25,7 +25,7 @@ function generateMetadata(metaQuiz) {
       genre: "Quiz",
       wordcount: "1120",
       publisher: "Feminive Fanfics",
-      url: `https://feminivefanfics.com.br/ContoErotico/${firstMetaItem.slug}`,
+      url: `https://feminivefanfics.com.br/EroticStories/${firstMetaItem.slug}`,
       datePublished: firstMetaItem.published,
       dateCreated: firstMetaItem.published,
       dateModified: firstMetaItem.published,
