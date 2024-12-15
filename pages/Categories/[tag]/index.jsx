@@ -32,10 +32,10 @@ export default function TagFilteredPosts({
                     className="rounded-xl"
                   />
                   <div className="mt-4 font-semibold text-xl text-brown">
-                    {posts[0].novel}
+                    {posts[0].novela}
                                       </div>
                   <p className="italic leading-6 text-center mt-2">
-                    &quot;{posts[0].novelDesc || "Xereca"}&quot;
+                    &quot;{posts[0].novelaDesc || "Xereca"}&quot;
                   </p>
                   <span className="text-brown cursor-pointer flex flex-row gap-2 mt-4 w-full justify-center p-2 rounded-xl">
                     <Link

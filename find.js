@@ -22,21 +22,21 @@ async function getAllMarkdownFiles(dir) {
 
 // Função para organizar os dados por novela e títulos
 async function organizeNovelsAndTitles(markdownFiles) {
-  const novels = {};
+  const novelas = {};
 
   for (const filePath of markdownFiles) {
     const fileContents = await fs.readFile(filePath, "utf8");
     const { data } = matter(fileContents);
 
     if (data.novela && data.title) {
-      if (!novels[data.novela]) {
-        novels[data.novela] = [];
+      if (!novelas[data.novela]) {
+        novelas[data.novela] = [];
       }
-      novels[data.novela].push(data.title);
+      novelas[data.novela].push(data.title);
     }
   }
 
-  return novels;
+  return novelas;
 }
 
 // Exemplo de uso
@@ -44,11 +44,11 @@ async function organizeNovelsAndTitles(markdownFiles) {
   try {
     const directory = path.join(__dirname, "posts"); // Substitua "posts" pelo diretório desejado
     const markdownFiles = await getAllMarkdownFiles(directory);
-    const novelsAndTitles = await organizeNovelsAndTitles(markdownFiles);
+    const novelasAndTitles = await organizeNovelsAndTitles(markdownFiles);
 
     console.log("Novelas e Títulos:");
-    for (const [novel, titles] of Object.entries(novelsAndTitles)) {
-      console.log(novel);
+    for (const [novela, titles] of Object.entries(novelasAndTitles)) {
+      console.log(novela);
       titles.forEach(title => console.log(`  - ${title}`));
     }
   } catch (error) {
