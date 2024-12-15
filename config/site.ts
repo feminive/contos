@@ -6,10 +6,7 @@ export const siteConfig = {
       label: "Home",
       href: "/",
     },
-    {
-      label: "Fanfics",
-      href: "/Fanfics",
-    },
+  
 
   ],
   navMenuItems: [
