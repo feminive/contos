@@ -22,13 +22,18 @@ async function getAllMarkdownFiles(dir) {
 
 // Função para organizar os dados por novela e títulos
 async function organizeNovelsAndTitles(markdownFiles) {
+<<<<<<< HEAD
   const novels = {};
+=======
+  const novelas = {};
+>>>>>>> b378c137aa702bcc081ed9146ee989a5b9d5ae56
 
   for (const filePath of markdownFiles) {
     const fileContents = await fs.readFile(filePath, "utf8");
     const { data } = matter(fileContents);
 
     if (data.novela && data.title) {
+<<<<<<< HEAD
       if (!novels[data.novela]) {
         novels[data.novela] = [];
       }
@@ -37,6 +42,16 @@ async function organizeNovelsAndTitles(markdownFiles) {
   }
 
   return novels;
+=======
+      if (!novelas[data.novela]) {
+        novelas[data.novela] = [];
+      }
+      novelas[data.novela].push(data.title);
+    }
+  }
+
+  return novelas;
+>>>>>>> b378c137aa702bcc081ed9146ee989a5b9d5ae56
 }
 
 // Exemplo de uso
@@ -44,11 +59,19 @@ async function organizeNovelsAndTitles(markdownFiles) {
   try {
     const directory = path.join(__dirname, "posts"); // Substitua "posts" pelo diretório desejado
     const markdownFiles = await getAllMarkdownFiles(directory);
+<<<<<<< HEAD
     const novelsAndTitles = await organizeNovelsAndTitles(markdownFiles);
 
     console.log("Novelas e Títulos:");
     for (const [novel, titles] of Object.entries(novelsAndTitles)) {
       console.log(novel);
+=======
+    const novelasAndTitles = await organizeNovelsAndTitles(markdownFiles);
+
+    console.log("Novelas e Títulos:");
+    for (const [novela, titles] of Object.entries(novelasAndTitles)) {
+      console.log(novela);
+>>>>>>> b378c137aa702bcc081ed9146ee989a5b9d5ae56
       titles.forEach(title => console.log(`  - ${title}`));
     }
   } catch (error) {
